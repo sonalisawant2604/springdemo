@@ -15,6 +15,7 @@ public class TestService
     public List<Customer> getHelloWorld()
     {
         log.info("inside service");
+        log.info("getting customer data");
         List<Customer> l=new ArrayList<>();
 
         l.add(new Customer(1,"sonali","pune"));

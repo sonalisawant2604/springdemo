@@ -19,6 +19,7 @@ public class HelloController {
     @GetMapping("/get")
     public List<Customer> helloWorld() {
         log.info("inside controller");
+
         return testService.getHelloWorld();
     }
 }
